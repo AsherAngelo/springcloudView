@@ -1,0 +1,4 @@
+#谁在前面谁生效这些配置类，用了order没啥用
+org.springframework.cloud.bootstrap.BootstrapConfiguration=\
+com.springcloud.session2config.myconfiguration.MyPropertiesConfiguration,\
+com.springcloud.session2config.myconfiguration.MyApplicationConfiguation
